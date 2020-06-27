@@ -1,4 +1,4 @@
-export type Tipo = 'corrente' | 'poupanca'
+type Tipo = 'corrente' | 'poupanca'
 
 export class Conta {
     tipo: Tipo;
